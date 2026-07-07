@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist/types"
+  },
+  "include": ["api/**/*", "db/**/*", "contracts/**/*"],
+  "exclude": ["src"]
+}
